@@ -2,6 +2,8 @@
 
 ![alt text](images/circuit.png)
 
+![alt text](images/draft.png)
+
 ### Hot Tub Thermostat - ESPHome Configuration
 
 This ESPHome project controls a hot tub's temperature using an ESP32-based thermostat. It integrates with Home Assistant, allowing users to monitor and control the thermostat remotely.
