@@ -164,7 +164,7 @@ binary_sensor:
   ## Sensors to identify the phyical button state ##
   - platform: gpio
     pin:
-      number: GPIO14 # String Light Switch Button Pin
+      number: GPIO25 # String Light Switch Button Pin
       mode: INPUT_PULLUP
     name: "String Light Physical Button State"
     id: string_light_physical_button_state
@@ -229,7 +229,7 @@ binary_sensor:
   # Increase Target Temp
   - platform: gpio
     pin: 
-      number: GPIO25
+      number: GPIO27
       mode: INPUT_PULLUP
     name: "Increase Temp Button"
     internal: True
@@ -243,7 +243,7 @@ binary_sensor:
   # Decrease Target Temp
   - platform: gpio
     pin: 
-      number: GPIO33
+      number: GPIO14
       mode: INPUT_PULLUP
     name: "Decrease Temp Button"
     internal: True
@@ -327,9 +327,9 @@ text_sensor:
 ##########################################
 output:
   - platform: gpio
-    pin: GPIO27
+    pin: GPIO13
     id: power_button_led
 
   - platform: gpio
-    pin: GPIO13
+    pin: GPIO33
     id: indicator_led
