@@ -20,6 +20,8 @@ This ESPHome project controls a hot tub's temperature using an ESP32-based therm
 - **Home Assistant Integration**: View and control the thermostat and pump status via Home Assistant.
 - **Web Portal**: Accessible local web server for device monitoring.
 
+![alt text](images/home_assistant_integration.png)
+
 #### Hardware:
 - **ESP32 Board**
 - **DS18B20 Temperature Sensor**
