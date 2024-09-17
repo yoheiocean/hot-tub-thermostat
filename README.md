@@ -51,3 +51,7 @@ This layout provides connections for the temperature sensor, OLED display, physi
 - Home Assistant for remote monitoring and control.
 
 For more information on setting up ESPHome and flashing configurations, visit [ESPHome Documentation](https://esphome.io/).
+
+![alt text](images/temp_history.png)
+
+Viewing the temp stats helps you automate the on/off schedule and find the energy consumption.
